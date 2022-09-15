@@ -26,7 +26,7 @@
 3. 旋转: 两指按屏, 太极旋转滑动；
 4. 俯仰: 两指按屏, 同向平行滑动。
 
-![Alt Text](img/phone.gif)
+![Alt Text](assets/phone.gif)
 
 ### Windows
 1. 放缩: 鼠标中键滚轮上下滚动；
@@ -42,7 +42,7 @@
 
 ## **架构设计图**
 
-![Alt Text](img/archi.png)
+![Alt Text](assets/archi.png)
 
 公开版方案采用云原生的托管服务来建设服务：
 
