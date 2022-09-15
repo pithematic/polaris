@@ -50,25 +50,3 @@
 2. 前端界面会向后端 *API Gateway* 发送 **路径计算** 请求。
 3. 通过 *AWS Lambda* 服务，计算出路径结果，返回给前端界面调用。
 4. 系统依赖的遥感数据，经过高程数据接口进行日常维护，存储在对象数据存储中心，供计算单元调用。
-
-
-
-<h2 id="__comments">讨论区</h2>
-<form id="gitalk-form" onsubmit="return false;">
-    <div id="gitalk-container"></div>
-</form>
-<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-<script src="https://cdnjs.loli.net/ajax/libs/blueimp-md5/2.10.0/js/md5.min.js"></script>
-<script>
-    const gitalk = new Gitalk({
-        clientID: '8ccb1dff92bb071f358d', // add yourself's
-        clientSecret: 'b4574d7fd6cc01e200a300021e3f1e012aea1061', // add yourself's
-        repo: 'polaris',
-        owner: 'pithematic',
-        admin: ['pithematic'],
-        id: md5(location.pathname),      // Ensure uniqueness and length less than 50
-        distractionFreeMode: false  // Facebook-like distraction free mode
-    })
-    gitalk.render('gitalk-container')
-</script>
